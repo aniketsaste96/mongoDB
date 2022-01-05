@@ -1,6 +1,6 @@
 List the four product which are grater than 500 in price 
 
-> db.taskzen.find({product_price:{
+> db.taskzen.find({product_price:{ 
 ...     $gte:500
 ... }})
 
